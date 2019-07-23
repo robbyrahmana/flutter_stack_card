@@ -1,0 +1,17 @@
+name: flutter_stack_card
+description: Stack Card Widget is fastest way to create swap card in flutter.
+version: 0.2.0+1
+author: Robby Rahmana <robbyrahmana79@gmail.com>
+homepage: https://github.com/robbyrahmana/flutter_stack_card
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_slider_indicator: ^0.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

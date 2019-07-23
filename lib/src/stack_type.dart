@@ -1,0 +1,1 @@
+enum StackType { middle, right }

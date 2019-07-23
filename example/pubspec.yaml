@@ -1,0 +1,31 @@
+name: example
+description: A new Flutter project.
+version: 1.1.0
+author: Robby Rahmana <robbyrahmana79@gmail.com>
+homepage: https://github.com/robbyrahmana/flutter_stack_card
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_stack_card:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+  flutter_stack_card:
+    path: ../
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/alient_covenant.jpg
+    - assets/images/blade_runner.jpg
+    - assets/images/aladdin.jpg
+    - assets/images/avengers_endgame.jpg
+    - assets/images/john_wick.jpg
